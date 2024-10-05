@@ -2,4 +2,4 @@ title: Mi Sitio Jekyll
 description: Una descripción breve de mi sitio.
 baseurl: ""
 url: "https://github.com/Whoami-JCLuna/empresa"
-theme: "jekyll-theme-yat"
+theme: jekyll-theme-yat
