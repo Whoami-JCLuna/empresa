@@ -1,0 +1,5 @@
+title: Mi Sitio Jekyll
+description: Una descripción breve de mi sitio.
+baseurl: ""
+url: "https://github.com/Whoami-JCLuna/empresa"
+theme: "https://github.com/Whoami-JCLuna/empresa/jekyll-theme-yat" 
