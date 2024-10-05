@@ -2,4 +2,4 @@ title: Mi Sitio Jekyll para DAW
 description: Tema usado para práticar jekyll en github.
 baseurl: "/jekyll-theme-yat"
 url: "https://github.com/Whoami-JCLuna/empresa"
-theme: "jekyll-theme-yat"
+theme: jekyll-theme-yat
