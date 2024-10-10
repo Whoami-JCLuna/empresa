@@ -33,8 +33,9 @@ plugins:
 El `Gemfile` es un archivo de configuración utilizado por Bundler, una herramienta para gestionar dependencias en proyectos de Ruby, incluyendo aplicaciones Jekyll. En este archivo, se especifican las gemas (librerías) que el proyecto necesita para funcionar, junto con las versiones deseadas. Al ejecutar el comando `bundle install`, Bundler lee el `Gemfile` y descarga las gemas requeridas, asegurando que el entorno de desarrollo esté configurado correctamente. Esto permite mantener las dependencias del proyecto organizadas y facilitar su instalación en diferentes entornos.
 
 ### Línea del theme para nuestro Gemfile:
-``` source "https://rubygems.org"
-   2   │ gem "github-pages", group: :jekyll_plugins ```
+```
+source "https://rubygems.org"
+   2   │ gem "github-pages", group: :jekyll_plugins 
 ```
 ### 3. Instalación de dependencias
 ```
@@ -48,14 +49,16 @@ bundle install
     ```
     
 ### 4. Push a nuestro repositorio remoto:
-```git add <archivos>
+```
+git add <archivos>
 git commit -m "Mensaje"
 git push origin master```
 ```
 
 ### CONFIGURACIÓNES ADICIONALES
 Agregar esta linea a nuestro css para trabajar con el theme: 
-```@import "{{ site.theme }}";
+```
+@import "{{ site.theme }}";
 // Aquí puedes agregar tu CSS personalizado ```
 ```
 
