@@ -34,10 +34,11 @@ El `Gemfile` es un archivo de configuración utilizado por Bundler, una herramie
 
 ### Línea del theme para nuestro Gemfile:
 ```source "https://rubygems.org"
-   2   │ gem "github-pages", group: :jekyll_plugins 
+   gem "github-pages", group: :jekyll_plugins 
 ```
 ### 3. Instalación de dependencias
-```bundle install
+```
+bundle install
 ```
 
 ### Prueba en local del theme jekyll:
