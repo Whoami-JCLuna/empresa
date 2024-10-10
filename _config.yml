@@ -1,0 +1,5 @@
+title: Mi sitio para Documentar en Despliegue
+description: Aquñi tendría una descripción de mi sitio
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
