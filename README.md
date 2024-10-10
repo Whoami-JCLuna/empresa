@@ -35,24 +35,29 @@ El `Gemfile` es un archivo de configuración utilizado por Bundler, una herramie
 ### Línea del theme para nuestro Gemfile:
 ``` source "https://rubygems.org"
    2   │ gem "github-pages", group: :jekyll_plugins ```
-
+```
 ### 3. Instalación de dependencias
+```
 bundle install
+```
 
   ### Prueba en local del theme jekyll:
     Levantamos un servidor jekyll en nuestro entorno local:
+    ```
     bundle exec jekyll serve 
-
+    ```
+    
 ### 4. Push a nuestro repositorio remoto:
 ```git add <archivos>
 git commit -m "Mensaje"
 git push origin master```
+```
 
 ### CONFIGURACIÓNES ADICIONALES
 Agregar esta linea a nuestro css para trabajar con el theme: 
 ```@import "{{ site.theme }}";
 // Aquí puedes agregar tu CSS personalizado ```
-
+```
 
 Y podremos comprobar que se ha levantado nuestro sitio github-pages con este theme jekylls.
 
