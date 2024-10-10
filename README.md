@@ -42,23 +42,20 @@ source "https://rubygems.org"
 bundle install
 ```
 
-  ### Prueba en local del theme jekyll:
-    Levantamos un servidor jekyll en nuestro entorno local:
-    ```
-    bundle exec jekyll serve 
-    ```
+### Prueba en local del theme jekyll:
+Levantamos un servidor jekyll en nuestro entorno local:
+```bundle exec jekyll serve 
+```
     
 ### 4. Push a nuestro repositorio remoto:
-```
-git add <archivos>
+```git add <archivos>
 git commit -m "Mensaje"
 git push origin master```
 ```
 
 ### CONFIGURACIÓNES ADICIONALES
 Agregar esta linea a nuestro css para trabajar con el theme: 
-```
-@import "{{ site.theme }}";
+```@import "{{ site.theme }}";
 // Aquí puedes agregar tu CSS personalizado ```
 ```
 
