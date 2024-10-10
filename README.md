@@ -55,8 +55,8 @@ git push origin master
 
 ### CONFIGURACIÓNES ADICIONALES
 Agregar esta linea a nuestro css para trabajar con el theme: 
-```@import "{{ site.theme }}";
-Aquí puedes agregar tu CSS personalizado
+```
+@import "{{ site.theme }}";
 ```
 
 Y podremos comprobar que se ha levantado nuestro sitio github-pages con este theme jekylls.
