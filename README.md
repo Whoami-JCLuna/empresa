@@ -22,10 +22,10 @@ Para la implementación del tema he realizado los siguientes pasos trabajando en
 ### 1. Configuración del archivo `_config.yml`
 Agregar las siguientes líneas al archivo `_config.yml`: (En caso de no existir este fichero se debe crear en la raiz)
 
-yaml
+``yaml
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-  - jekyll-remote-theme
+  - jekyll-remote-theme ``
 
 ### 2. Configuración o creación del Gemfile
 ## ¿Qué es un Gemfile?
