@@ -27,6 +27,7 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
 
+```
 ### 2. Configuración o creación del Gemfile
 ## ¿Qué es un Gemfile?
 El `Gemfile` es un archivo de configuración utilizado por Bundler, una herramienta para gestionar dependencias en proyectos de Ruby, incluyendo aplicaciones Jekyll. En este archivo, se especifican las gemas (librerías) que el proyecto necesita para funcionar, junto con las versiones deseadas. Al ejecutar el comando `bundle install`, Bundler lee el `Gemfile` y descarga las gemas requeridas, asegurando que el entorno de desarrollo esté configurado correctamente. Esto permite mantener las dependencias del proyecto organizadas y facilitar su instalación en diferentes entornos.
