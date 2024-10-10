@@ -22,18 +22,18 @@ Para la implementación del tema he realizado los siguientes pasos trabajando en
 ### 1. Configuración del archivo `_config.yml`
 Agregar las siguientes líneas al archivo `_config.yml`: (En caso de no existir este fichero se debe crear en la raiz)
 
-``yaml
+```yaml
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-  - jekyll-remote-theme ``
+  - jekyll-remote-theme ```
 
 ### 2. Configuración o creación del Gemfile
 ## ¿Qué es un Gemfile?
 El `Gemfile` es un archivo de configuración utilizado por Bundler, una herramienta para gestionar dependencias en proyectos de Ruby, incluyendo aplicaciones Jekyll. En este archivo, se especifican las gemas (librerías) que el proyecto necesita para funcionar, junto con las versiones deseadas. Al ejecutar el comando `bundle install`, Bundler lee el `Gemfile` y descarga las gemas requeridas, asegurando que el entorno de desarrollo esté configurado correctamente. Esto permite mantener las dependencias del proyecto organizadas y facilitar su instalación en diferentes entornos.
 
 ### Línea del theme para nuestro Gemfile:
-source "https://rubygems.org"
-   2   │ gem "github-pages", group: :jekyll_plugins
+``` source "https://rubygems.org"
+   2   │ gem "github-pages", group: :jekyll_plugins ```
 
 ### 3. Instalación de dependencias
 bundle install
@@ -43,14 +43,14 @@ bundle install
     bundle exec jekyll serve 
 
 ### 4. Push a nuestro repositorio remoto:
-git add <archivos>
+```git add <archivos>
 git commit -m "Mensaje"
-git push origin master
+git push origin master```
 
 ### CONFIGURACIÓNES ADICIONALES
 Agregar esta linea a nuestro css para trabajar con el theme: 
-@import "{{ site.theme }}";
-// Aquí puedes agregar tu CSS personalizado
+```@import "{{ site.theme }}";
+// Aquí puedes agregar tu CSS personalizado ```
 
 
 Y podremos comprobar que se ha levantado nuestro sitio github-pages con este theme jekylls.
